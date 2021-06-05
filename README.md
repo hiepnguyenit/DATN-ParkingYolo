@@ -12,13 +12,17 @@
 - Bài toán phát hiện vật thể
 - Nghiên cứu họ các thuật toán Convolution Neural Network
 - Nghiên cứu và triển khai thuật toán Yolo V3 bằng Pytorch
-- Thu thập dữ liệu và huấn luyện mô hình với 2 tập dữ liệu lớn và tập dữ liệu mô phỏng
+- Thu thập dữ liệu, tiền xử lý và huấn luyện mô hình với 2 tập dữ liệu lớn và tập dữ liệu mô phỏng
 - Kiểm thử mô hình
 - Nghiên cứu các chỉ số đánh giá mô hình
 - Xây dựng trang web hiển thị màn hình xử lý bằng Django
 #### 3. Công nghệ, công cụ và ngôn ngữ lập trình:
-##### Công nghệ: Python, OpenCV, Pytorch, Django, Colab Notebook, CUDA
-##### Công cụ: Một số thư viện mã nguồn mở của Python: opencv-python, pandas, numpy, pickle, django, torch,...
+##### Công nghệ: Python, OpenCV, Pytorch, Django, Colab Notebook, CUDA, Darknet
+##### Công cụ:
+- Một số thư viện mã nguồn mở của Python: opencv-python, pandas, numpy, pickle, django, torch,...
+- Visual Studio Code
+- Darknet: Open Source Neural Networks
+- Google Colab
 ##### Ngôn ngữ lập trình: Python
 #### 4. Các kết quả chính dự kiến sẽ đạt được và ứng dụng:
 - Sử dụng camera tiến hành phát hiện các vị trí còn trống và đã đỗ trong thời gian thực
