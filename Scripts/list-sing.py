@@ -1,3 +1,5 @@
+# Script tạo file train
+
 import glob
 import os
 import numpy as np
