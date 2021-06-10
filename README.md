@@ -22,7 +22,7 @@
 #### 3. Công nghệ, công cụ và ngôn ngữ lập trình:
 ##### Công nghệ: Python, OpenCV, Pytorch, Django, Colab Notebook, CUDA, Darknet
 ##### Công cụ:
-- Một số thư viện mã nguồn mở của Python: opencv-python, pandas, numpy, pickle, django, torch,...
+- Một số thư viện mã nguồn mở của Python: opencv-python, pandas, numpy, django, torch,...
 - Visual Studio Code
 - Darknet: Open Source Neural Networks
 - Google Colab
