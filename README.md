@@ -1,7 +1,7 @@
 <h1 align="center"> ĐỒ ÁN TỐT NGHIỆP ĐỢT GIAO THÁNG 03/2021 </h1>
 
 
-## ĐỀ TÀI: XÂY DỰNG ỨNG DỤNG PHÁT HIỆN CHỖ TRỐNG TRONG BÃI ĐỖ XE  
+## ĐỀ TÀI: NGHIÊN CỨU TRIỂN KHAI THUẬT TOÁN YOLOv3 VÀ XÂY DỰNG WEBSITE THEO DÕI CÁC VỊ TRÍ CÒN TRỐNG VÀ ĐÃ ĐỖ TRONG BÃI ĐỖ XE 
 ### Giảng viên hướng dẫn: ThS. PHẠM THỊ MIÊN  
 ### Sinh viên thực hiện: NGUYỄN VĂN HIỆP
 ### Lớp: CÔNG NGHỆ THÔNG TIN
@@ -9,7 +9,7 @@
 #### 1. Mục đích, yêu cầu:
 - Xây dựng ứng dụng phát hiện những vị trí còn trống trong bãi giúp quá trình triển khai hệ thống bãi đỗ xe ô tô thông minh tiết kiệm, nhanh hơn, tiện dụng, chính xác bằng cách áp dụng Thị giác máy tính (Computer Vison) Và Học sâu (Deep Learning)
 #### 2. Nội dung và phạm vi đề tài:
-- Bài toán phát hiện vật thể
+- Bài toán nhận diện vật thể
 - Nghiên cứu họ các thuật toán Convolution Neural Network
 - Nghiên cứu và triển khai thuật toán Yolo V3 bằng Pytorch:
   - Triển khai module nhận diện qua hình ảnh
