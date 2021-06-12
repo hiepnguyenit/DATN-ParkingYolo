@@ -1,0 +1,171 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 788px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  width: 1257px;
+  margin: 60px -59px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 688px;
+  background-image: url("/static/images/Parkinglotcam.jpg");
+  background-position: 70.11% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 688px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px 0 30px 10px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 0 30px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  line-height: 1.6;
+  font-size: 1.5rem;
+  margin: 20px -157px 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 20px 30px 0 0;
+}
+
+.u-section-1 .u-icon-1 {
+  height: 128px;
+  width: 128px;
+  margin: 60px auto 0 206px;
+}
+
+.u-section-1 .u-text-4 {
+  margin: 16px 62px 0 52px;
+}
+
+.u-section-1 .u-btn-1 {
+  font-size: 1.25rem;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 578px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 940px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 514px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 514px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-left: 152px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1155px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 394px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-left: 166px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 29px;
+    margin-left: 49px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1127px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: -177px;
+    width: 540px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 591px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1128px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: -98px;
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 372px;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-left: 102px;
+  }
+}

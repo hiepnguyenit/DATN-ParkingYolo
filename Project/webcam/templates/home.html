@@ -1,0 +1,223 @@
+{% extends 'base.html' %}
+
+{% block title %}Parking Vison - Home{% endblock %}
+
+{% block css %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}" media="screen">
+{% endblock %}
+
+{% block content %}
+
+<section class="u-carousel u-carousel-duration-750 u-slide u-block-5204-1" id="carousel_b419" data-image-width="4000" data-image-height="1973" data-interval="5000" data-u-ride="carousel">
+  <ol class="u-absolute-hcenter u-carousel-indicators u-block-5204-2">
+    <li data-u-target="#carousel_b419" class="u-active u-gradient u-shape-circle" data-u-slide-to="0" style="width: 15px; height: 15px; background-image: linear-gradient(to right, #2cccc4, #b9c1cc);"></li>
+    <li data-u-target="#carousel_b419" class="u-gradient u-shape-circle" data-u-slide-to="1" style="width: 15px; height: 15px; background-image: linear-gradient(to right, #2cccc4, #b9c1cc);"></li>
+    <li data-u-target="#carousel_b419" class="u-gradient u-shape-circle" data-u-slide-to="2" style="width: 15px; height: 15px; background-image: linear-gradient(to right, #2cccc4, #b9c1cc);"></li>
+  </ol>
+  <div class="u-carousel-inner" role="listbox">
+    <div class="u-active u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-1" src="" data-image-width="1600" data-image-height="789">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-title u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0">PARKING VISON</h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">
+          <span class="u-text-palette-4-light-2">Phát hiện những vị trí còn trống trong bãi giúp quá trình triển khai hệ thống&nbsp;</span>
+          <span class="u-text-palette-4-base">
+            <br>bãi đỗ xe ô tô 
+          </span>
+          <span class="u-text-palette-3-base">
+            <span class="u-text-palette-4-base">thông minh</span>
+            <span style="font-weight: 700;">tiết kiệm, nhanh hơn, tiện dụng, chính xác</span>
+          </span>
+        </p>
+        <a href="{% url 'camera' %}" data-page-id="135616059" class="u-btn u-button-style u-palette-2-base u-btn-1">Xem camera</a>
+      </div>
+    </div>
+    <div class="u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-2" src="" data-image-width="1050" data-image-height="520">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-title u-text-1" data-animation-name="slideIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="Down">PARKING VISON</h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">
+          <span class="u-text-palette-4-light-1">Áp dụng công nghệ&nbsp;Thị giác máy tính<br>
+          </span>
+          <span style="font-weight: 700;" class="u-text-palette-3-base">Computer Vison</span>
+        </p>
+        <a href="{% url 'camera' %}" data-page-id="135616059" class="u-btn u-button-style u-palette-2-base u-btn-1">Xem camera</a>
+      </div>
+    </div>
+    <div class="u-align-center u-carousel-item u-clearfix u-image u-shading u-section-1-3" src="" data-image-width="1000" data-image-height="647">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-title u-text-1" data-animation-name="slideIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="Down">PARKING VISON</h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">
+          <span class="u-text-palette-4-light-2">Và công nghệ Học sâu<br>
+          </span>
+          <span style="font-weight: 700;" class="u-text-palette-3-base">Deep Learning</span>
+        </p>
+        <a href="{% url 'camera' %}" data-page-id="135616059" class="u-btn u-button-style u-palette-2-base u-btn-1">Xem camera</a>
+      </div>
+    </div>
+  </div>
+  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-icon-circle u-radius-10 u-text-palette-1-base u-block-5204-3" href="#carousel_b419" role="button" data-u-slide="prev">
+    <span aria-hidden="true">
+      <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+                c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+    </span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-icon-circle u-radius-10 u-text-palette-1-base u-block-5204-4" href="#carousel_b419" role="button" data-u-slide="next">
+    <span aria-hidden="true">
+      <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+                c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+    </span>
+    <span class="sr-only">Next</span>
+  </a>
+</section>
+<section class="u-align-center u-clearfix u-palette-2-light-3 u-section-2" id="sec-64da">
+  <h2 class="u-text u-text-palette-4-base u-text-1">Hình ảnh demo</h2>
+  <div id="carousel-bd35" data-interval="4000" data-u-ride="carousel" class="u-carousel u-carousel-duration-1250 u-expanded-width u-slider u-slider-1">
+    <ol class="u-absolute-hcenter u-carousel-indicators u-hidden u-carousel-indicators-1">
+      <li data-u-target="#carousel-bd35" class="u-active u-grey-30" data-u-slide-to="0"></li>
+      <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="1"></li>
+      <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="2"></li>
+      <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="3"></li>
+      <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="4"></li>
+      <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="5"></li>
+      <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="6"></li>
+      <li data-u-target="#carousel-bd35" class="u-grey-30" data-u-slide-to="7"></li>
+    </ol>
+    <div class="u-carousel-inner" role="listbox">
+      <div class="u-active u-align-left u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-1">
+          {% load static %}
+          <img alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="1280" data-image-height="720" src="{% static 'images/detect20210607230149.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-2">Nhận diện các vị trí còn trống và đã đỗ</h5>
+          <p class="u-align-center u-text u-text-3">Nhận diện các vị trí còn trống và đã đỗ với&nbsp;độ chính xác cực cao, bất chấp điều kiện thời tiết, ánh sáng, vật thể gây nhiễu.<br>Tùy thuộc vào tập dữ liệu muốn dự đoán từ camera.
+          </p>
+        </div>
+      </div>
+      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-2">
+          {% load static %}
+          <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-2" data-image-width="1280" data-image-height="720" src="{% static 'images/meo3.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-4">Hiển thị các vị trí còn trống và đã đỗ</h5>
+          <p class="u-text u-text-5">Hiển thị lên màn hình các vị trí còn trống và đã đỗ, tổng các vị trí có trong bãi</p>
+        </div>
+      </div>
+      <div class="u-align-center-xs u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-3">
+          {% load static %}
+          <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-3" data-image-width="834" data-image-height="480" src="{% static 'images/Parkinglotcam.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-6">Camera quan sát 24/7</h5>
+          <p class="u-align-center u-text u-text-7">Tiện lợi trong việc theo dõi tình hình ô tô trong bãi. <br>An toàn tuyệt đối, theo dõi ô tô mọi lúc mọi nơi
+          </p>
+        </div>
+      </div>
+      <div class="u-align-left u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-4">
+          {% load static %}
+          <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-4" data-image-width="1280" data-image-height="720" src="{% static 'images/detect20210608075250.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-8">Trời chạng vạng tối thắp đèn</h5>
+        </div>
+      </div>
+      <div class="u-align-left u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-5">
+          {% load static %}
+          <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-5" data-image-width="1280" data-image-height="720" src="{% static 'images/detect20210608075235.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-9">Trời nắng chiều đổ bóng</h5>
+        </div>
+      </div>
+      <div class="u-align-left u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-6">
+          {% load static %}
+          <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-6" data-image-width="1280" data-image-height="720" src="{% static 'images/detect20210608075223.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-10">Trời nắng sáng đổ bóng</h5>
+        </div>
+      </div>
+      <div class="u-align-left u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-7">
+          {% load static %}
+          <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-7" data-image-width="1280" data-image-height="720" src="{% static 'images/detect20210608075204.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-11">Trời mưa</h5>
+        </div>
+      </div>
+      <div class="u-align-left u-carousel-item u-container-style u-slide">
+        <div class="u-container-layout u-container-layout-8">
+          {% load static %}
+          <img alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-default u-image-8" data-image-width="1280" data-image-height="720" src="{% static 'images/detect20210608075616.jpg' %}">
+          <h5 class="u-text u-text-palette-2-base u-text-12">Trời râm mát</h5>
+        </div>
+      </div>
+    </div>
+    <a class="u-carousel-control u-carousel-control-prev u-grey-60 u-icon-circle u-spacing-9 u-carousel-control-1" href="#carousel-bd35" role="button" data-u-slide="prev">
+      <span aria-hidden="true">
+        <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
+                c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
+      </span>
+      <span class="sr-only">+Previous</span>
+    </a>
+    <a class="u-carousel-control u-carousel-control-next u-grey-60 u-icon-circle u-spacing-9 u-carousel-control-2" href="#carousel-bd35" role="button" data-u-slide="next">
+      <span aria-hidden="true">
+        <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+                c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path></svg>
+      </span>
+      <span class="sr-only">+Next</span>
+    </a>
+  </div>
+</section>
+<section class="u-align-center u-clearfix u-palette-5-light-2 u-section-3" id="sec-56d5">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <h1 class="u-text u-text-1">Tại sao cần bãi đỗ xe thông minh?</h1>
+    <p class="u-align-center u-text u-text-2">
+      <span style="font-size: 1.5rem;">Giải pháp bãi đỗ xe thông minh áp dụng công nghệ tự động là một trong những giải pháp đang rất được quan tâm hiện nay, đặc biệt là tại các thành phố lớn nơi có lượng phương tiện giao thông đang tăng nhanh một cách chóng mặt, tìm được một chỗ đậu xe ô tô trong thời buổi hiện tại cũng là vấn đề khá khó khăn. Đôi khi, có thể có chỗ trống trong bãi đỗ xe nhưng tài xế sẽ không biết nó nằm ở đâu, hoặc là không biết trong bãi có còn chỗ trống hay không. Rất nhiều vụ đỗ xe trước nhà dân dẫn đến nhiều bất cập.&nbsp;</span>
+      <br>
+    </p>
+    <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-col">
+          <div class="u-size-20">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-1" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                <div class="u-container-layout u-valign-top-xs u-container-layout-1">
+                  <h3 class="u-custom-font u-font-playfair-display u-text u-text-3">Đối với chủ đầu tư</h3>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-right-cell u-size-40 u-layout-cell-2" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-text u-text-4">Giúp chủ đầu tư quản lý bãi giữ xe một cách chuyên nghiệp, khoa học với các công nghệ hiện đại, đồng thời giảm chi phí chủ đầu tư.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-size-20">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-3" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                <div class="u-container-layout u-valign-top u-container-layout-3">
+                  <h3 class="u-custom-font u-font-playfair-display u-text u-text-5">Đối với người&nbsp; sử dụng</h3>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-right-cell u-size-40 u-layout-cell-4">
+                <div class="u-container-layout u-container-layout-4">
+                  <p class="u-text u-text-default u-text-6" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">Thuận tiện cho người sử dụng, có thể nắm bắt số lượng chỗ trống và vị trí chính xác trong bãi, giúp chủ xe giảm thời gian tìm kiếm, tiết kiệm nhiên liệu, giúp tâm trạng thoải mái hơn thay vì tự mình tìm xem vị trí nào còn trống. Hơn nữa người sử dụng có thể theo dõi tình trạng xe mình ở mọi lúc mọi nơi.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="u-size-20">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-size-20 u-layout-cell-5" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                <div class="u-container-layout u-container-layout-5">
+                  <h3 class="u-custom-font u-font-playfair-display u-text u-text-7">Đối với người quản lý</h3>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-right-cell u-size-40 u-layout-cell-6" data-animation-name="jackInTheBox" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+                <div class="u-container-layout u-valign-top u-container-layout-6">
+                  <p class="u-text u-text-8">Thuận tiện cho người quản lý bãi xe, giúp cho họ nắm bắt thông tin số lượng chỗ trống hiện tại, chính xác vị trí còn trống để chỉ dẫn cho các tài xế vào bãi, tạo điều kiện thuận lợi cho việc điều hành các phương tiện di chuyển.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="vi-VN">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="hiepnguyen1304">
+    <meta name="description" content="">
+    <title>{% block title %}{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/web.css' %}" media="screen">
+    {% block css %}{% endblock %}
+    <script class="u-script" type="text/javascript" src="{% static 'js/jquery.js' %}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{% static 'js/web.js' %}" defer=""></script>
+    {% load static %}
+    <link rel="icon" href="{% static 'images/favicon.png' %}">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+  </head>
+
+
+  <body class="u-body"><header class="u-clearfix u-gradient u-header u-sticky u-header" id="sec-7f7d"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="{% url 'home' %}" data-page-id="2728304892" class="u-image u-logo u-image-1" data-image-width="566" data-image-height="193" title="Parking Vison">
+          {% load static %}
+          <img src="{% static 'images/Untitled-1.png' %}" class="u-logo-image u-logo-image-1" data-image-width="149.1429">
+        </a>
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1" data-position="prime">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-x u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#carousel_b419">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-custom-font u-nav u-spacing-30 u-text-font u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-dark-1" href="{% url 'home' %}" style="padding: 10px 0px;">Home</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-dark-1" href="{% url 'camera' %}" style="padding: 10px 0px;">Camera</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-dark-1" href="{% url 'contact' %}" style="padding: 10px 0px;">Liên Hệ</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'home' %}" style="padding: 10px 0px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'camera' %}" style="padding: 10px 0px;">Camera</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{% url 'contact' %}" style="padding: 10px 0px;">Liên Hệ</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+
+    {% block content %}{% endblock %}
+    
+    <footer class="u-align-center u-clearfix u-footer u-palette-1-light-3 u-footer" id="sec-510d"><div class="u-clearfix u-sheet u-sheet-1">
+      {% load static %}
+      <img class="u-image u-image-default u-image-1" src="{% static 'images/logo1.png' %}" alt="" data-image-width="566" data-image-height="77" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">
+        <div class="u-social-icons u-spacing-11 u-social-icons-1">
+          <a class="u-social-url" title="Facebook" target="_blank" href="https://facebook.com/hiepnguyen1304"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-black u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-95a0"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-95a0"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
+            c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
+          </a>
+          <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/hiepnguyen1304"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-black u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-58d8"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-58d8"><circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M83.8,47.3c0,0.6,0,1.2,0,1.7c0,17.7-13.5,38.2-38.2,38.2C38,87.2,31,85,25,81.2c1,0.1,2.1,0.2,3.2,0.2
+            c6.3,0,12.1-2.1,16.7-5.7c-5.9-0.1-10.8-4-12.5-9.3c0.8,0.2,1.7,0.2,2.5,0.2c1.2,0,2.4-0.2,3.5-0.5c-6.1-1.2-10.8-6.7-10.8-13.1
+            c0-0.1,0-0.1,0-0.2c1.8,1,3.9,1.6,6.1,1.7c-3.6-2.4-6-6.5-6-11.2c0-2.5,0.7-4.8,1.8-6.7c6.6,8.1,16.5,13.5,27.6,14
+            c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4
+            c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path></svg></span>
+          </a>
+          <a class="u-social-url" target="_blank" title="Github" href="https://github.com/hiepnguyenit/DATN-ParkingYolo"><span class="u-icon u-icon-circle u-social-custom u-social-icon u-text-black u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 31.499 31.499" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6a65"></use></svg><svg class="u-svg-content" viewBox="0 0 31.499 31.499" x="0px" y="0px" id="svg-6a65" style="enable-background:new 0 0 31.499 31.499;"><g><g><path d="M9.602,11.632c-1.208,0-1.813,0.711-1.813,2.131c0,1.324,0.605,1.986,1.813,1.986c1.171,0,1.755-0.673,1.755-2.015    c0-0.558-0.134-1.037-0.402-1.439C10.628,11.854,10.178,11.632,9.602,11.632z"></path><path d="M0,0v31.499h31.498V0H0z M18.62,22.097h-3.477v-10.12c-0.254,0.089-0.58,0.186-1.032,0.29    c0.153,0.44,0.27,0.853,0.27,1.237c0,1.229-0.371,2.299-1.108,3.21c-0.74,0.911-1.694,1.454-2.864,1.625    c-0.768,0.114-1.152,0.528-1.152,1.239c0,0.248,0.123,0.498,0.373,0.748c0.327,0.363,0.804,0.595,1.438,0.688    c2.745,0.425,4.115,1.565,4.115,3.427c0,2.976-1.778,4.463-5.329,4.463c-1.457,0-2.666-0.26-3.605-0.776    c-1.19-0.653-1.801-1.681-1.801-3.081c0-1.611,0.83-2.717,2.646-3.311V21.68c-0.656-0.404-0.948-1.018-0.948-1.843    c0-1.075,0.292-1.747,0.948-2.017v-0.058c-0.656-0.21-1.158-0.69-1.638-1.438c-0.54-0.807-0.806-1.668-0.806-2.59    c0-1.383,0.491-2.533,1.471-3.455c0.94-0.863,2.061-1.295,3.367-1.295c0.939,0,1.773,0.229,2.579,0.69    c0.902,0,1.951-0.223,3.078-0.662V8.409h3.477v13.688H18.62z M18.375,6.249c-0.395,0.422-0.859,0.633-1.396,0.633    c-0.558,0-1.032-0.211-1.426-0.633c-0.393-0.422-0.59-0.922-0.59-1.497c0-0.594,0.195-1.104,0.59-1.525    c0.394-0.423,0.869-0.633,1.426-0.633c0.535,0,1,0.21,1.396,0.633c0.393,0.422,0.592,0.932,0.592,1.525    C18.967,5.327,18.768,5.827,18.375,6.249z M27.053,21.533c-0.658,0.387-1.537,0.578-2.535,0.578c-1.4,0-2.344-0.5-2.881-1.5    c-0.404-0.746-0.607-1.927-0.607-3.539V12.14h-1.715V8.966h1.715V7.134h3.104c0.016,0.452,0.039,1.414,0.049,1.832h2.66v3.174    h-2.656v5.077c0,1.285,0.416,1.929,1.263,1.929c0.594,0,1.081-0.161,1.606-0.489v2.877H27.053z"></path><path d="M7.473,24.876c0,0.995,0.843,1.495,2.532,1.495c1.478,0,2.216-0.519,2.216-1.555c0-0.979-0.805-1.469-2.418-1.469    C8.249,23.349,7.472,23.857,7.473,24.876z"></path>
+</g>
+</g></svg></span>
+          </a>
+        </div>
+        <a href="{% url 'home' %}" data-page-id="2728304892" class="u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-14 u-btn-1">Home</a>
+        <a href="{% url 'camera' %}" data-page-id="135616059" class="u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-14 u-btn-2">Camera</a>
+        <a href="{% url 'contact' %}" data-page-id="1409212750" class="u-btn u-btn-round u-button-style u-hover-palette-4-base u-radius-14 u-btn-3">Liên Hệ</a>
+        <p class="u-small-text u-text u-text-variant u-text-1">&nbsp;© 2021 All rights reserved</p>
+      </div></footer>
+  </body>
+</html>

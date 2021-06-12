@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Parking Vison - Camera{% endblock %}
+
+{% block css %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/camera.css' %}" media="screen">
+{% endblock %}
+
+{% block content %}
+
+<section class="u-align-center u-clearfix u-section-1" id="sec-642c">
+<h1 class="u-text u-text-palette-4-base u-text-1">Camera Realtime</h1>
+</section>
+<section class="u-clearfix u-section-2" id="sec-a2df">
+<div class="u-clearfix u-sheet u-sheet-1">
+  <img class="u-image u-image-default u-image-1" src="{% url 'video-feed' %}" alt="" data-image-width="1024" data-image-height="768">
+  <div class="u-border-5 u-border-palette-2-light-1 u-shape u-shape-rectangle u-shape-1"></div>
+</div>
+</section>
+<section class="u-align-center u-clearfix u-section-3" id="sec-44b2">
+<div class="u-clearfix u-sheet u-sheet-1">
+  <p class="u-text u-text-1">
+    <span style="font-size: 1.5rem;">Chú thích:</span>
+    <br>
+  </p>
+  <ul class="u-align-left u-text u-text-2">
+    <li>
+      <span style="font-size: 1.5rem;">Empty - Tương ứng với vị trí còn trống</span>
+    </li>
+    <li>
+      <span style="font-size: 1.5rem;">Occupied - Tương ứng với vị trí đã đỗ</span>
+    </li>
+    <li>
+      <span style="font-size: 1.5rem;">Total - Tương ứng với tổng vị trí trong bãi</span>
+    </li>
+  </ul>
+</div>
+</section>
+
+{% endblock %}
