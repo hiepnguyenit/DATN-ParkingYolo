@@ -19,6 +19,7 @@
 -	Nghiên cứu về Mạng Thần Kinh Tích Chập (Convolution Neural Network) và những ứng dụng của nó trong Deep Learning và Computer Vison.
 -	Nghiên cứu thuật toán YOLO (You Only Look Once).
 -	Tìm hiểu các nguồn cơ sở dữ liệu hình ảnh cho quá trình huấn luyện mô hình Học Sâu.
+-	Tìm hiểu một số khái niệm liên quan đến lĩnh lực Khai Phá Dữ Liệu (Data Mining) áp dụng vào mô hình học sâu.
 -	Thu thập dữ liệu hình ảnh về những chỗ trống và đã đỗ trong bãi đỗ xe. Gắn nhãn, tiền xử lý.
 -	Tìm hiểu về Transfer Learning, và ứng dụng vào huấn luyện mô hình.
 -	Ứng dụng kiến trúc Darknet huấn luyện mô hình trên tập dữ liệu lớn và tập dữ liệu mô phỏng bằng công cụ Google Colab.
