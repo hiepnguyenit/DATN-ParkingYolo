@@ -1,7 +1,7 @@
 <h1 align="center"> ĐỒ ÁN TỐT NGHIỆP ĐỢT GIAO THÁNG 03/2021 </h1>
 
 
-## ĐỀ TÀI: NGHIÊN CỨU TRIỂN KHAI THUẬT TOÁN YOLOV3 VÀ XÂY DỰNG HỆ THỐNG HƯỚNG DẪN ĐẬU XE Ô TÔ PARKING VISON
+## ĐỀ TÀI: NGHIÊN CỨU TRIỂN KHAI THUẬT TOÁN YOLOV3 VÀ XÂY DỰNG HỆ THỐNG HƯỚNG DẪN ĐẬU XE Ô TÔ PARKING VISION
 ### Giảng viên hướng dẫn: ThS. PHẠM THỊ MIÊN  
 ### Sinh viên thực hiện: NGUYỄN VĂN HIỆP
 ### Lớp: CÔNG NGHỆ THÔNG TIN
@@ -13,10 +13,10 @@
 -	Xây dựng website giới thiệu sản phẩm.
 -	Xây dựng giải pháp cho Hệ Thống Hướng Dẫn Bãi Đỗ Xe (Parking Guidance System) thông minh tiết kiệm, nhanh hơn, tiện dụng, chính xác và có thể mở rộng quy mô sau này.
 ##### b. Yêu cầu
--	Tìm hiểu về Thị giác Máy tính (Computer Vison) và Học Sâu (Deep Learning).
+-	Tìm hiểu về Thị giác Máy tính (Computer Vision) và Học Sâu (Deep Learning).
 -	Nghiên cứu về xử lý ảnh.
 -	Nghiên cứu những quy trình trong xử lý ảnh.
--	Nghiên cứu về Mạng Thần Kinh Tích Chập (Convolution Neural Network) và những ứng dụng của nó trong Deep Learning và Computer Vison.
+-	Nghiên cứu về Mạng Thần Kinh Tích Chập (Convolution Neural Network) và những ứng dụng của nó trong Deep Learning và Computer Vision.
 -	Nghiên cứu thuật toán YOLO (You Only Look Once).
 -	Tìm hiểu các nguồn cơ sở dữ liệu hình ảnh cho quá trình huấn luyện mô hình Học Sâu.
 -	Tìm hiểu một số khái niệm liên quan đến lĩnh lực Khai Phá Dữ Liệu (Data Mining) áp dụng vào mô hình học sâu.
@@ -27,7 +27,7 @@
 -	Ứng dụng Django để xây dựng website giới thiệu sản phẩm, truyền màn hình đã xử lý lên website.
 #### 2. Nội dung và phạm vi đề tài:
 ##### a. Nội dung đề tài
--	Giới thiệu và phân biệt các khái niệm liên quan đến Trí tuệ Nhân tạo (Artificial Intelligence), Thị giác Máy tính (Computer Vison), Học Máy (Machine Learning), Học Sâu (Deep Learning).
+-	Giới thiệu và phân biệt các khái niệm liên quan đến Trí tuệ Nhân tạo (Artificial Intelligence), Thị giác Máy tính (Computer Vision), Học Máy (Machine Learning), Học Sâu (Deep Learning).
 - Nghiên cứu và triển khai thuật toán YOLOv3 bằng Pytorch:
   - Triển khai module nhận diện qua hình ảnh
   - triển khai module nhận diện qua video/camera
