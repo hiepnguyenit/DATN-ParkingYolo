@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Parking Vison - Camera{% endblock %}
+{% block title %}Parking Vision - Camera{% endblock %}
 
 {% block css %}
 {% load static %}
@@ -14,7 +14,8 @@
 </section>
 <section class="u-clearfix u-section-2" id="sec-a2df">
 <div class="u-clearfix u-sheet u-sheet-1">
-  <img class="u-image u-image-default u-image-1" src="{% url 'video-feed' %}" alt="" data-image-width="1024" data-image-height="768">
+  {% load static %}
+  <img class="u-image u-image-default u-image-1" src="{% static 'images/plot4.JPG' %}" alt="" data-image-width="1024" data-image-height="768">
   <div class="u-border-5 u-border-palette-2-light-1 u-shape u-shape-rectangle u-shape-1"></div>
 </div>
 </section>
