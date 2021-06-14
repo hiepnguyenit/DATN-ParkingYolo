@@ -9,7 +9,7 @@ from util.model import Darknet
 from util.image_processor import prep_image
 from util.utils import non_max_suppression
 
-confidence = 0.8
+confidence = 0.75
 nms_thesh = 0.7
 start = 0
 CUDA = torch.cuda.is_available()
@@ -50,7 +50,7 @@ def write(x, results):
     return img
 
 
-cap = cv2.VideoCapture("test.mp4")
+cap = cv2.VideoCapture(0)
 
 # Đặt độ phân giải của frame, nhận các độ phân giải Mặc định
 # chuyển đổi từ float sang int
