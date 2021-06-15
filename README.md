@@ -57,3 +57,5 @@
 -	Nắm được kiến trúc thuật toán YOLOv3 và có thể ứng dụng vào mọi đề tài liên quan.
 -	Nắm được các ưu, nhược điểm của thuật toán và các phương pháp tối ưu cho thuật toán.
 -	Nắm được những quy trình trong huấn luyện và kiểm tra mô hình trong các mô hình Deep Learning.
+
+Trang demo: https://parkingvision.herokuapp.com/
