@@ -38,8 +38,7 @@
 ##### b. Phạm vi đề tài.
 -	Bài toán nhận diện vật thể (Object Detection).
 -	Giới thiệu họ các thuật toán Mạng Thần kinh Tích chập (Convolution Neural Network) trong nhận diện vật thể.
--	Ứng dụng Django để xây dựng website giới thiệu sản phẩm.
--	Tích hợp module nhận diện qua camera vào Django để truyền màn hình đã xử lý lên website.
+-	Ứng dụng Nicepage thiết kế website giới thiệu sản phẩm và sử dụng Django để xử lý trang web, truyền màn hình đã xử lý lên website.
 
 #### 3. Công nghệ, công cụ và ngôn ngữ lập trình:
 ##### Công nghệ: Python, OpenCV, Pytorch, Django, Colab Notebook, CUDA, Darknet
