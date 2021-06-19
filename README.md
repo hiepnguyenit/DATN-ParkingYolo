@@ -19,7 +19,7 @@
 -	Nghiên cứu về Mạng Thần Kinh Tích Chập (Convolution Neural Network) và những ứng dụng của nó trong Deep Learning và Computer Vision.
 -	Nghiên cứu thuật toán YOLO (You Only Look Once).
 -	Tìm hiểu các nguồn cơ sở dữ liệu hình ảnh cho quá trình huấn luyện mô hình Học Sâu.
--	Tìm hiểu một số khái niệm liên quan đến lĩnh lực Khai Phá Dữ Liệu (Data Mining) áp dụng vào mô hình học sâu.
+-	Tìm hiểu một số khái niệm liên quan đến lĩnh lực thống kê học áp dụng vào mô hình học sâu.
 -	Thu thập dữ liệu hình ảnh về những chỗ trống và đã đỗ trong bãi đỗ xe. Gắn nhãn, tiền xử lý.
 -	Tìm hiểu về Transfer Learning, và ứng dụng vào huấn luyện mô hình.
 -	Ứng dụng kiến trúc Darknet huấn luyện mô hình trên tập dữ liệu lớn và tập dữ liệu mô phỏng bằng công cụ Google Colab.
@@ -27,7 +27,7 @@
 -	Ứng dụng Django để xây dựng website giới thiệu sản phẩm, truyền màn hình đã xử lý lên website.
 #### 2. Nội dung và phạm vi đề tài:
 ##### a. Nội dung đề tài
--	Giới thiệu và phân biệt các khái niệm liên quan đến Trí tuệ Nhân tạo (Artificial Intelligence), Thị giác Máy tính (Computer Vision), Học Máy (Machine Learning), Học Sâu (Deep Learning).
+-	Giới thiệu và phân biệt các khái niệm liên quan đến Trí tuệ Nhân tạo (Artificial Intelligence), Thị giác Máy tính (Computer Vision), Học Máy (Machine Learning), Học Sâu (Deep Learning), Khai Phá Dữ Liệu (Data Mining).
 - Nghiên cứu và triển khai thuật toán YOLOv3 bằng Pytorch:
   - Triển khai module nhận diện qua hình ảnh
   - triển khai module nhận diện qua video/camera
@@ -38,8 +38,7 @@
 ##### b. Phạm vi đề tài.
 -	Bài toán nhận diện vật thể (Object Detection).
 -	Giới thiệu họ các thuật toán Mạng Thần kinh Tích chập (Convolution Neural Network) trong nhận diện vật thể.
--	Ứng dụng Django để xây dựng website giới thiệu sản phẩm.
--	Tích hợp module nhận diện qua camera vào Django để truyền màn hình đã xử lý lên website.
+-	Ứng dụng Nicepage thiết kế website giới thiệu sản phẩm và sử dụng Django để xử lý trang web, truyền màn hình đã xử lý lên website.
 
 #### 3. Công nghệ, công cụ và ngôn ngữ lập trình:
 ##### Công nghệ: Python, OpenCV, Pytorch, Django, Colab Notebook, CUDA, Darknet
