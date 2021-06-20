@@ -18,6 +18,9 @@
 -	Nghiên cứu những quy trình trong xử lý ảnh.
 -	Nghiên cứu về Mạng Thần Kinh Tích Chập (Convolution Neural Network) và những ứng dụng của nó trong Deep Learning và Computer Vision.
 -	Nghiên cứu thuật toán YOLO (You Only Look Once).
+-	Tìm hiểu về thuật toán hồi quy logistic.
+-	Tìm hiểu về Gradient Descent.
+-	Tìm hiểu về Batch normalization.
 -	Tìm hiểu các nguồn cơ sở dữ liệu hình ảnh cho quá trình huấn luyện mô hình Học Sâu.
 -	Tìm hiểu một số khái niệm liên quan đến lĩnh lực thống kê học áp dụng vào mô hình học sâu.
 -	Thu thập dữ liệu hình ảnh về những chỗ trống và đã đỗ trong bãi đỗ xe. Gắn nhãn, tiền xử lý.
@@ -37,7 +40,7 @@
 -	Hiển thị song song màn hình xử lý trên website và trên desktop.
 ##### b. Phạm vi đề tài.
 -	Bài toán nhận diện vật thể (Object Detection).
--	Giới thiệu họ các thuật toán Mạng Thần kinh Tích chập (Convolution Neural Network) trong nhận diện vật thể.
+-	Thuật toán YOLOv3.
 -	Ứng dụng Nicepage thiết kế website giới thiệu sản phẩm và sử dụng Django để xử lý trang web, truyền màn hình đã xử lý lên website.
 
 #### 3. Công nghệ, công cụ và ngôn ngữ lập trình:
