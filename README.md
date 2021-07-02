@@ -17,20 +17,20 @@
 -	Nghiên cứu về xử lý ảnh.
 -	Nghiên cứu những quy trình trong xử lý ảnh.
 -	Nghiên cứu về Mạng Thần Kinh Tích Chập (Convolution Neural Network) và những ứng dụng của nó trong Deep Learning và Computer Vision.
--	Nghiên cứu thuật toán YOLO (You Only Look Once).
+-	Nghiên cứu thuật toán YOLOv3 (You Only Look Once Version 3).
 -	Tìm hiểu về thuật toán hồi quy logistic.
 -	Tìm hiểu về Gradient Descent.
 -	Tìm hiểu về Batch normalization.
--	Tìm hiểu các nguồn cơ sở dữ liệu hình ảnh cho quá trình huấn luyện mô hình Học Sâu.
+-	Tìm hiểu nguồn cơ sở dữ liệu hình ảnh để huấn luyện mô hình Học Sâu.
 -	Tìm hiểu một số khái niệm liên quan đến lĩnh lực thống kê học áp dụng vào mô hình học sâu.
 -	Thu thập dữ liệu hình ảnh về những chỗ trống và đã đỗ trong bãi đỗ xe. Gắn nhãn, tiền xử lý.
 -	Tìm hiểu về Transfer Learning, và ứng dụng vào huấn luyện mô hình.
 -	Ứng dụng kiến trúc Darknet huấn luyện mô hình trên tập dữ liệu lớn và tập dữ liệu mô phỏng bằng công cụ Google Colab.
--	Ứng dụng thuật toán YOLOv3 (You Only Look Once, Version 3) để phát hiện những vị trí còn trống, đã đỗ trên hình ảnh, video, camera bằng Pytorch.
+-	Ứng dụng thuật toán YOLOv3 (You Only Look Once version 3) để phát hiện những vị trí còn trống, đã đỗ trên hình ảnh, video, camera bằng Pytorch.
 -	Ứng dụng Django để xây dựng website giới thiệu sản phẩm, truyền màn hình đã xử lý lên website.
 #### 2. Nội dung và phạm vi đề tài:
 ##### a. Nội dung đề tài
--	Giới thiệu và phân biệt các khái niệm liên quan đến Trí tuệ Nhân tạo (Artificial Intelligence), Thị giác Máy tính (Computer Vision), Học Máy (Machine Learning), Học Sâu (Deep Learning), Khai Phá Dữ Liệu (Data Mining).
+-	Giới thiệu và phân biệt các khái niệm liên quan đến Trí tuệ Nhân tạo (Artificial Intelligence), Thị giác Máy tính (Computer Vision), Học Máy (Machine Learning), Học Sâu (Deep Learning).
 - Nghiên cứu và triển khai thuật toán YOLOv3 bằng Pytorch:
   - Triển khai module nhận diện qua hình ảnh
   - triển khai module nhận diện qua video/camera
@@ -53,11 +53,11 @@
 ##### Ngôn ngữ lập trình: Python
 #### 4. Các kết quả chính dự kiến sẽ đạt được và ứng dụng:
 -	Sử dụng camera tiến hành phát hiện các vị trí còn trống và đã đỗ trong thời gian thực. Hiển thị lên màn hình vị trí còn trống và đã đỗ, đếm những vị trí còn trống, đã đỗ, tổng các vị trí hiện có.
--	Sử dụng Django để xây dựng website.
+-	Sử dụng Django để xây dựng website giới thiệu sản phẩm và truyền hình ảnh đã xử lý.
 -	Mô phỏng mô hình trực tiếp.
 -	Hoàn chỉnh cuốn báo cáo đề tài.
 -	Nắm được kiến trúc thuật toán YOLOv3 và có thể ứng dụng vào mọi đề tài liên quan.
--	Nắm được các ưu, nhược điểm của thuật toán và các phương pháp tối ưu cho thuật toán.
+-	Nắm được các ưu, nhược điểm của thuật toán và các phương pháp tối ưu cho thuật toán để cải thiện mô hình nhận diện.
 -	Nắm được những quy trình trong huấn luyện và kiểm tra mô hình trong các mô hình Deep Learning.
 
 Trang demo: https://parkingvision.herokuapp.com/
