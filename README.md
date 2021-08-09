@@ -60,5 +60,5 @@
 -	Nắm được các ưu, nhược điểm của thuật toán và các phương pháp tối ưu cho thuật toán để cải thiện mô hình nhận diện.
 -	Nắm được những quy trình trong huấn luyện và kiểm tra mô hình trong các mô hình Deep Learning.
 
-Trang demo: https://parkingvision.herokuapp.com/
+Trang demo: https://parkingvision.herokuapp.com/  
 Xem demo: https://youtu.be/IHwrNHjOy_Y
