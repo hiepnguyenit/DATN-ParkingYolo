@@ -39,7 +39,7 @@
 -	Xây dựng trang web hiển thị màn hình xử lý bằng Django.
 -	Hiển thị song song màn hình xử lý trên website và trên desktop.
 ##### b. Phạm vi đề tài.
--	Bài toán nhận diện vật thể (Object Detection).
+-	Bài toán phát hiện vật thể (Object Detection).
 -	Thuật toán YOLOv3.
 -	Ứng dụng Nicepage thiết kế website giới thiệu sản phẩm và sử dụng Django để xử lý trang web, truyền màn hình đã xử lý lên website.
 
@@ -61,3 +61,4 @@
 -	Nắm được những quy trình trong huấn luyện và kiểm tra mô hình trong các mô hình Deep Learning.
 
 Trang demo: https://parkingvision.herokuapp.com/
+Xem demo: https://youtu.be/IHwrNHjOy_Y
